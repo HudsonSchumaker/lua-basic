@@ -17,3 +17,14 @@ if age < 15 then
 else
   io.write("you can vote")
 end
+
+-- if elseif else
+
+if age < 15 then
+  io.write("you can not vote")
+elseif age > 65 then
+  io.write("your vote is optional")
+else 
+  io.write("you can vote")
+end
+
