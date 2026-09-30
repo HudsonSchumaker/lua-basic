@@ -26,7 +26,7 @@ end
 
 names = { "Alberto", "Julia" "Sophia", "Caroline" }
 
--- loop tables 
+-- loop tables
 for k, v pairs(names) do 
   io.write(v, " ")
 end 
